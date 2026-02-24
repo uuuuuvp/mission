@@ -29,7 +29,7 @@ def count_unique_lines(csv_dir):
         json.dump(result, f, ensure_ascii=False, indent=2)
     
     print(f"完成！找到 {len(unique_lines)} 条不重复线路")
-    print(f"结果已保存到 unique_lines.json")
+    print("结果已保存到 unique_lines.json")
     
     return unique_lines
 

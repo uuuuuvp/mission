@@ -39,8 +39,8 @@ def iterate_extrct_acline_data(qs_dir_path, csv_dir_path):
         extract_acline_data(qs_file_path, csv_file_path)
 
 if __name__ == "__main__":
-    flag = attain_parse_args()
-    if not flag:
+    my_flag = attain_parse_args()
+    if my_flag == 0:
         qs_file_path = "E:\\data\\QS文件\\国调_20230921_2000.QS"
         csv_file_path = 'E:\\data\\国调_20230921_2000.csv'
         extract_acline_data(qs_file_path, csv_file_path)
