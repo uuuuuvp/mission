@@ -138,7 +138,7 @@ def mat_iterate_append_time(csv_dir, index_json, mat_csv_file):
 if __name__ == "__main__":
     flag = attain_parse_args()  # default=1
     if flag == 0:
-        count_unique_lines("E:\\data\\ACline_CSV_Cleaned")
+        count_unique_lines("E:\\data\\ACline_CSV_Cleaned")      # 用一次即可，生成 unique_lines.json
     elif flag == 1:
         line_matrix("unique_lines.json", "E:\\data\\国调_20230801_0000.csv", "line_matrix.csv")
     elif flag == 2:

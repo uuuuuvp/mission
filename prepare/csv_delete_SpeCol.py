@@ -1,3 +1,6 @@
+"""
+提供列名删除列
+"""
 import os
 import pandas as pd
 from extract_acline import attain_parse_args
